@@ -1,0 +1,28 @@
+{
+  "name": "craft-solutions",
+  "title": "Craft Solutions",
+  "version": "2.0.0",
+  "author": "Alen Tolj",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atolj/atolj.github.io"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "animate.css": "3.6.1",
+    "bootstrap": "4.0.0",
+    "font-awesome": "4.7.0",
+    "jquery": "3.3.1",
+    "jquery.easing": "^1.4.1",
+    "simple-line-icons": "2.4.1"
+  },
+  "devDependencies": {
+    "browser-sync": "2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "3.9.2",
+    "gulp-header": "2.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "3.0.0"
+  }
+}
