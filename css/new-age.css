@@ -1074,6 +1074,11 @@ header .device-container .screen img {
   header .header-content .header-content-inner h1 {
     font-size: 35px;
   }
+  header .device-mockup {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
   header .device-container {
     max-width: none;
     max-height: calc(0vh);

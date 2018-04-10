@@ -537,6 +537,11 @@ header {
         }
       }
     }
+    .device-mockup{
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+    }
     .device-container {
       max-width: none;
       max-height: calc(0vh);
