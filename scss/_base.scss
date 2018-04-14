@@ -581,7 +581,7 @@ section {
   }
   &.features {
     .section-heading {
-      margin-bottom: 100px;
+      margin-bottom: 50px;
       h2 {
         margin-top: 0;
       }
@@ -589,9 +589,9 @@ section {
         margin-bottom: 0;
       }
     }
-    // section-post-heading fatto da Antonio
+
     .section-post-heading {
-      margin-bottom: 100px;
+      margin-bottom: 50px;
       h2 {
         margin-top: 0;
       }
@@ -608,10 +608,11 @@ section {
     }
     .feature-item {
       text-align: center;
-      margin-bottom: 100px;
+      margin-bottom: 20px;
+      padding-top: 0;
       h3 {
         font-size: 30px;
-        margin-bottom: 30px;
+        margin-bottom: 50px;
         margin-top: 50px;
       }
       .icon-space {
