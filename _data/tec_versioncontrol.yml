@@ -1,4 +1,4 @@
-head: Versionsverwaltung
+head: Public Cloud
 buzzwords:
-  - GIT
-  - SVN
+  - AWS
+  - GCP

@@ -1,7 +1,7 @@
-head: Webtechnologien
+head: Automatisierung
 buzzwords:
-  - HTML5
-  - CSS
-  - Wicket
-  - AngularJS
-  - TypeScript
+  - Jenkins
+  - Artifactory
+  - Docker
+  - Openshift
+  - Kubernetes

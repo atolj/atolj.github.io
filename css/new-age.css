@@ -1172,6 +1172,10 @@ section.features .feature-item .icon-space {
   margin-bottom: 20px;
 }
 
+section.features .feature-item .feature-header {
+  margin-top: 15px;
+}
+
 section.features .feature-item i {
   font-size: 80px;
   margin-top: 20px;

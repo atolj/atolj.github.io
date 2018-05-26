@@ -3,7 +3,6 @@ title: Craft Solution - IT Consulting Alen Tolj
 email:
 description: Craft Solution Landing Page, Portfolio und Blogging
 
-baseurl: "/"
 url: "https://atolj.github.io"
 
 ## Social networks usernames (many more available: flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.) see all icon at fontawesome.io
@@ -22,6 +21,13 @@ social:
 collections:
   - projects
 
+languages: ["en", "de"]
+exclude_from_localizations: ["assets", "CNAME"]
+defaultLang: en
+languageNames:
+  de: Deutsch
+  en: English
+
 sass:
   sass_dir: _scss
   style: compressed
@@ -32,7 +38,7 @@ permalink: pretty
 paginate: 5
 exclude: [".idea","node_modules","package.json","README.md"]
 
-plugins: [jekyll-paginate, jekyll-feed]
+plugins: [jekyll-paginate, jekyll-feed, jekyll-multiple-languages-plugin]
 # Build settings
 defaults:
   - scope:

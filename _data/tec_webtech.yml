@@ -1,7 +1,6 @@
-head: Infrastruktur
+head: Webtechnologien
 buzzwords:
-  - Jenkins (Hudson)
-  - Bitbucket (Stash)
-  - Docker
-  - Kubernetes
-  - Docker Swarm
+  - HTML5
+  - CSS
+  - ReactJS
+  - AngularJS
