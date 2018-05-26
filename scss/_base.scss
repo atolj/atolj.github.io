@@ -501,12 +501,8 @@ header {
         margin-bottom: 30px;
         font-size: 30px;
       }
-      .list-badges {
-        margin-bottom: 25px;
-        img {
-          height: 50px;
-          margin-bottom: 25px;
-        }
+      a {
+        margin-top: 25px;
       }
     }
   }
@@ -561,24 +557,7 @@ section {
   h2 {
     font-size: 50px;
   }
-  &.download {
-    padding: 150px 0;
-    position: relative;
-    h2 {
-      margin-top: 0;
-      font-size: 50px;
-    }
-    .badges .badge-link {
-      display: block;
-      margin-bottom: 25px;
-      &:last-child {
-        margin-bottom: 0;
-      }
-      img {
-        height: 60px;
-      }
-    }
-  }
+
   &.features {
     .section-heading {
       margin-bottom: 50px;
@@ -631,6 +610,17 @@ section {
       }
     }
   }
+  &.consulting {
+    i {
+      font-size: 80px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      background: -webkit-linear-gradient(to left, $head-primary, $head-secondary);
+      background: linear-gradient(to left, $head-primary, $head-secondary);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
   &.cta {
     position: relative;
     -webkit-background-size: cover;
@@ -677,7 +667,7 @@ section {
         margin-bottom: 25px;
         color: white;
         max-width: 450px;
-        font-size: 70px;
+        font-size: 50px;
       }
     }
     .overlay-donate {
@@ -689,95 +679,11 @@ section {
       left: 0;
     }
   }
-  &.contact {
-    text-align: center;
-    h2 {
-      margin-top: 0;
-      margin-bottom: 25px;
-      i {
-        color: #dd4b39;
-      }
-    }
-    h4 {
-      margin-bottom: 15px;
-    }
-    h5 {
-      padding-top: 10px;
-    }
-    .contact-form {
-      input {
-        margin: 10px;
-      }
-      textarea {
-        margin: 10px;
-      }
-    }
-    .contact-image{
-      display: block;
-      width: 90%;
-      margin-right: auto;
-      margin-bottom: 15px;
-      margin-left: auto;
-      border-radius: 100%;
-    }
-    ul.list-social {
-      margin-bottom: 0;
-      li {
-        a {
-          display: block;
-          height: 80px;
-          width: 80px;
-          line-height: 80px;
-          font-size: 40px;
-          border-radius: 100%;
-          color: white;
-        }
-        &.social-twitter a {
-          background-color: #1da1f2;
-          &:hover {
-            background-color: #0d95e8;
-          }
-        }
-        &.social-google-plus a {
-          background-color: #dd4b39;
-          &:hover {
-            background-color: #d73925;
-          }
-        }
-        &.social-github a {
-          background-color: #24292e;
-          &:hover {
-            background-color: #24292e;
-          }
-        }
-        &.social-linkedin a {
-          background-color: #0c76b3;
-          &:hover {
-            background-color: #0c76b3;
-          }
-        }
-        &.social-xing a {
-          background-color: #097474;
-          &:hover {
-            background-color: #097474;
-          }
-        }
-
-      }
-    }
-  }
-}
-
-@media (min-width: 768px) {
-  section.download .badges .badge-link {
-    display: inline-block;
-    margin-bottom: 0;
-  }
 }
 
 @media (min-width: 768px) {
   section.download h2 {
-    font-size: 70px;
+    font-size: 50px;
   }
 }
 

@@ -1,0 +1,60 @@
+
+{% include head.html %}
+
+<body>
+
+<div class="main">
+    <div class="container wrapper">
+
+        {% include cv/sidebar.html %}
+        <div class=" main-wrapper">
+            {% include cv/intro.html %}
+
+            {% include cv/school.html %}
+            <section xmlns="http://www.w3.org/1999/html">
+                <h2 class="section-title"><i class="fa fa-briefcase"></i>Beruflicher Werdegang</h2>
+                {% for project in site.projects reversed  %}
+                <div class="print-space">
+
+                    {% if forloop.index != 1 %}
+                    <div class="print-margin-top">
+                    {% endif %}
+                        <section class="job-section">
+                            {% for job in project.job %}
+                            <div class="upper-row">
+                                <div class="time">{{ job.date }}</div>
+                                <div class="job-title">{{ job.title }}</div>
+                                <div class="company">{{ job.company }}</div>
+                                <div class="content">{{ job.task }}</div>
+                            </div>
+                            {% endfor %}
+                            <!--<div class="sub-section-title">Herausforderungen</div>-->
+                            <div class="content"><span class="skills-title">Herausforderungen:</span> {{ project.challenge }}</div>
+                            <!--<div class="sub-section-title">Vorgehensmodell</div>-->
+                            <div class="content"><span class="skills-title">Vorgehensmodell:</span> {{ project.process }}</div>
+
+                            <div class="sub-section-title">Aufgaben</div>
+                            {% for task in project.tasks %}
+
+                            <div class="content"><i class="fa fa-circle"></i>{{ task }}</div>
+                            {% endfor %}
+
+                            <div class="sub-section-title">Technologien</div>
+                            {% for skill in project.skills %}
+                            <div class="skills-title">{{ skill.head }}</div>
+                            <div class="content">{{ skill.bullets }}</div>
+                            {% endfor %}
+                        </section>
+                    {% if forloop.index != 1 %}
+                    </div>
+                    {% endif %}
+                </div>
+                {% endfor %}
+            </section><!--//section-->
+        </div><!--//main-body-->
+    </div>
+</div>
+<div class="hidden-print">
+
+</div>
+</body>

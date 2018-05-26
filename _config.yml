@@ -21,12 +21,6 @@ social:
 collections:
   - projects
 
-languages: ["en", "de"]
-exclude_from_localizations: ["assets", "CNAME"]
-defaultLang: en
-languageNames:
-  de: Deutsch
-  en: English
 
 sass:
   sass_dir: _scss
@@ -38,7 +32,7 @@ permalink: pretty
 paginate: 5
 exclude: [".idea","node_modules","package.json","README.md"]
 
-plugins: [jekyll-paginate, jekyll-feed, jekyll-multiple-languages-plugin]
+plugins: [jekyll-paginate, jekyll-feed]
 # Build settings
 defaults:
   - scope:

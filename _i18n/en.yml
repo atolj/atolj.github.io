@@ -1,11 +1,11 @@
 site:
-  name: My Example Website
-  tagline: Setting a good example!
-  description: This example website will amaze you!
-  keywords: example, website, amazing
+  name: Meine Beispiel-Webseite
+  tagline: Mit gutem Beispiel voran!
+  description: Diese Beispiel-Webseite wird Sie begeistern!
+  keywords: Beispiel, Webseite, toll
 
 main:
   welcomeSection:
-    anchor: welcome
-    heading: Welcome to this marvelous webseite.
-    p1: Hundreds of thousands of people are amazed by this site. Are you?
+    anchor: willkommen
+    heading: Willkommen auf dieser tollen Webseite!
+    p1: Hunderttausende Menschen sind von dieser Seite begeistert. Sie auch?
