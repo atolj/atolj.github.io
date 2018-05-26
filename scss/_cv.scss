@@ -16,18 +16,17 @@
     background: #fff;
     padding: 30px 300px 30px 30px;
     @media print {
-      padding-right: 255px;
+      padding-right: 290px;
     }
     h1 {
       text-transform: uppercase;
-      font-size: xx-large;
+      font-size: $cv-font-size-head;
       font-weight: 900;
       color: $head-primary;
       position: relative;
       margin-top: 0;
       margin-bottom: 25px;
       @media print {
-        font-size: x-large;
         padding-bottom: 5px;
         margin-bottom: 5px;
       }
@@ -40,22 +39,18 @@
     }
     .intro {
       margin-top: 10px;
-      font-size: medium;
+      font-size: $cv-font-size-content;
       text-align: justify;
-      @media print {
-        font-size: $cv-content-size;
-      }
     }
     .section-title {
       text-transform: uppercase;
-      font-size: x-large;
+      font-size: $cv-font-size-subhead;
       font-weight: 600;
       color: $head-primary;
       position: relative;
       margin-top: 40px;
       margin-bottom: 20px;
       @media print {
-        font-size: medium;
         margin-top: 20px;
         margin-bottom: 0;
         font-weight: 400;
@@ -67,11 +62,10 @@
         display: inline-block;
         color: $head-primary;
         text-align: center;
-        font-size: large;
+        font-size: $cv-font-size-content;
         position: relative;
         top: -2px;
         @media print {
-          font-size: medium;
           top: 0;
         }
       }
@@ -89,25 +83,23 @@
     }
 
     .job-title {
-      font-size: large;
+      font-size: $cv-font-size-subhead;
       margin-top: 10px;
       margin-bottom: 0;
       font-weight: 600;
       @media print {
-        font-size: medium;
         margin-top: 5px;
-        font-weight: 400;
+        //font-weight: 400;
       }
     }
 
     .sub-section-title {
-      font-size: medium;
+      font-size: $cv-font-size-subhead;
       font-weight: 600;
       position: relative;
       margin-top: 10px;
       margin-bottom: 5px;
       @media print {
-        font-size: $cv-content-size;
         margin-top: 5px;
         font-weight: 600;
       }
@@ -115,38 +107,28 @@
 
     .time {
       position: absolute;
-      font-size: medium;
+      font-size: $cv-font-size-content;
       right: 315px;
       color: $head-primary;
       opacity: 0.7;
       @media print {
         margin-top: 5px;
         right: 280px;
-        font-size: $cv-content-size;
       }
     }
     .company {
-      font-size: medium;
+      font-size: $cv-font-size-content;
       opacity: 0.7;
       color: $head-primary;
-      @media print {
-        font-size: $cv-content-size;
-      }
     }
 
     .skills-title {
-      font-size: medium;
+      font-size: $cv-font-size-content;
       opacity: 0.7;
       color: $head-primary;
-      @media print {
-        font-size: $cv-content-size;
-      }
     }
     .content {
-      font-size: medium;
-      @media print {
-        font-size: $cv-content-size;
-      }
+      font-size: $cv-font-size-content;
       .fa {
         width: 0;
         height: 0;
@@ -240,7 +222,7 @@ div {
         li {
           font-size: medium;
           @media print {
-            font-size: $cv-content-size;
+            font-size: $cv-font-size-content;
           }
           margin-bottom: 10px;
         }
@@ -282,7 +264,7 @@ div {
       .languages-list li {
         font-size: medium;
         @media print {
-          font-size: $cv-content-size;
+          font-size: $cv-font-size-content;
         }
         margin-bottom: 10px;
       }
@@ -295,7 +277,7 @@ div {
       .interests-list li {
         font-size: medium;
         @media print {
-          font-size: $cv-content-size;
+          font-size: $cv-font-size-content;
         }
         margin-bottom: 8px;
       }
