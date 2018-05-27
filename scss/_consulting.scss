@@ -1,0 +1,12 @@
+// Styling for the consulting section
+section.consulting{
+  i {
+    font-size: 80px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background: -webkit-linear-gradient(to left, $head-primary, $head-secondary);
+    background: linear-gradient(to left, $head-primary, $head-secondary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
