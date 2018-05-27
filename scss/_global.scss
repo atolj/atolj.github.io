@@ -50,3 +50,33 @@ section {
         font-size: 50px;
     }
 }
+
+.heading-font {
+    font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+.body-font {
+    font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+}
+
+.alt-font {
+    font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Large devices (large desktops, 1200px and up) */
+/* Ex-Large devices (large desktops, 1200px and up) */
+
+/*
+used for profile image
+*/
+.profile-img {
+    max-width: 150px;
+    margin-bottom: 15px;
+    border: 0px solid #fff;
+    border-radius: 100%;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}

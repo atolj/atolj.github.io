@@ -1,7 +1,7 @@
 // Styling for the features section
 section.features {
     .section-heading {
-        margin-bottom: 100px;
+        margin-bottom: 50px;
         h2 {
             margin-top: 0;
         }
@@ -9,30 +9,43 @@ section.features {
             margin-bottom: 0;
         }
     }
-    .device-container,
-    .feature-item {
-        max-width: 325px;
+
+    .section-post-heading {
+        margin-bottom: 50px;
+        h2 {
+            margin-top: 0;
+        }
+        p {
+            margin-bottom: 0;
+        }
+    }
+    .device-container, .feature-item {
+        max-width: 300px;
         margin: 0 auto;
     }
     .device-container {
         margin-bottom: 100px;
-        @media(min-width: 992px) {
-            margin-bottom: 0;
-        }
     }
     .feature-item {
-        padding-top: 50px;
-        padding-bottom: 50px;
         text-align: center;
+        margin-bottom: 20px;
+        padding-top: 0;
         h3 {
             font-size: 30px;
+            margin-bottom: 50px;
+            margin-top: 50px;
+        }
+        .icon-space {
+            margin-bottom: 20px;
+        }
+        .feature-header{
+            margin-top: 15px;
         }
         i {
             font-size: 80px;
-            display: block;
-            margin-bottom: 15px;
-            background: -webkit-linear-gradient(to left, $theme-secondary, $theme-tertiary);
-            background: linear-gradient(to left, $theme-secondary, $theme-tertiary);
+            margin-top: 20px;
+            background: -webkit-linear-gradient(to left, $head-primary, $head-secondary);
+            background: linear-gradient(to left, $head-primary, $head-secondary);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }

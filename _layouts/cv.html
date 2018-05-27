@@ -1,8 +1,10 @@
 
 {% include head.html %}
 
-<body>
-
+<body class="svg-background">
+<div class="d-print-none">
+{% include cv/nav.html %}
+</div>
 <div class="main">
     <div class="container wrapper">
 
@@ -56,7 +58,8 @@
         </div><!--//main-body-->
     </div>
 </div>
-<div class="hidden-print">
-
+<div class="d-print-none">
+    {% include contact.html %}
+    {% include scripts.html %}
 </div>
 </body>

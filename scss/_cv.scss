@@ -1,11 +1,15 @@
 
+.svg-background {
+  background: url("../img/bg-pattern.png"), $head-primary;
+}
+
 .main {
   max-width: 960px;
-  margin: 0 auto;
   position: relative;
   -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 60px auto 0;
 
   section {
     padding: 0;
@@ -47,8 +51,8 @@
       font-weight: 600;
       color: $head-primary;
       position: relative;
-      margin-top: 80px;
-      margin-bottom: 40px;
+      margin-top: 60px;
+      margin-bottom: 30px;
       @media print {
         margin-top: 20px;
         margin-bottom: 0;
@@ -278,5 +282,11 @@ div {
     @media print {
       -webkit-print-color-adjust: exact;
     }
+  }
+}
+
+.hidden-print{
+  @media print {
+
   }
 }
