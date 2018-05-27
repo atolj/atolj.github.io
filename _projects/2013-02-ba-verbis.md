@@ -1,10 +1,10 @@
 ---
 layout:     project
 job:
-  - title: IT Solutions Designer
-    date: 11/2010-01/2013
-    company: Accenture Technology Solutions GmbH
-    task: "Neugestaltung der Intranet-Plattform VerBIS bei der Bundesagentur für Arbeit"
+  - title:      IT Solutions Designer
+    date:       11/2010-01/2013
+    company:    Accenture Technology Solutions GmbH
+    task:       Neugestaltung der Intranet-Plattform VerBIS bei der Bundesagentur für Arbeit
 challenge:      Umstieg auf Model Driven Architecture und Erstellung von neuen Teil-Applikationen
 process:        Einbettung von Scrum in den Entwicklungsprozess
 tasks:

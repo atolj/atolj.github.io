@@ -4,7 +4,7 @@ job:
   - title:      Solutions Architect
     date:       04/2015-08/2016
     company:    comSysto GmbH
-    task:       Technische Teamleitung des Neukunden Onlineshops von o2
+    task:       Technische Teamleitung eines Neukunden Onlineshops im Bereich Telekommunikation 
 challenge:      Erstellung einer tragfähigen Microservice Architektur und gleichzeitige Skalierung des Entwicklungsteams
 process:        Kanban, Scrum und Nexus
 tasks:

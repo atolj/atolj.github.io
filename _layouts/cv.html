@@ -14,8 +14,10 @@
             <section xmlns="http://www.w3.org/1999/html">
                 <h2 class="section-title"><i class="fa fa-briefcase"></i>Beruflicher Werdegang</h2>
                 {% for project in site.projects reversed  %}
+                {% assign loopindex = forloop.index | modulo: 2 %}
+                {% if loopindex == 1 %}
                 <div class="print-space">
-
+                {% endif %}
                     {% if forloop.index != 1 %}
                     <div class="print-margin-top">
                     {% endif %}
@@ -28,9 +30,7 @@
                                 <div class="content">{{ job.task }}</div>
                             </div>
                             {% endfor %}
-                            <!--<div class="sub-section-title">Herausforderungen</div>-->
                             <div class="content"><span class="skills-title">Herausforderungen:</span> {{ project.challenge }}</div>
-                            <!--<div class="sub-section-title">Vorgehensmodell</div>-->
                             <div class="content"><span class="skills-title">Vorgehensmodell:</span> {{ project.process }}</div>
 
                             <div class="sub-section-title">Aufgaben</div>
@@ -48,7 +48,9 @@
                     {% if forloop.index != 1 %}
                     </div>
                     {% endif %}
+                {% if loopindex == 1 %}
                 </div>
+                {% endif %}
                 {% endfor %}
             </section><!--//section-->
         </div><!--//main-body-->

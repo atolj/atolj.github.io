@@ -1,10 +1,10 @@
 ---
 layout:     project
 job:
-  - title: Solutions Architect
-    date: 02/2013-07/2014
-    company: comSysto GmbH
-    task: "Entwicklung des Neukunden Onlineshops von o2"
+  - title:      Solutions Architect
+    date:       02/2013-07/2014
+    company:    comSysto GmbH
+    task:       Technische Teamleitung eines Neukunden Onlineshops im Bereich Telekommunikation
 challenge:      Abstimmung mit unterschiedlichen Portal-Applikationen und Erstellung einer mobilen Applikation
 process:        Agile Methodik in Form von Scrum
 tasks:
