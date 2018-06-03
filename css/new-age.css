@@ -468,11 +468,11 @@ section.contact ul.list-social li.social-twitter a:hover {
   background-color: #0d95e8;
 }
 
-section.contact ul.list-social li.social-google-plus a {
+section.contact ul.list-social li.social-google-plus-g a {
   background-color: #dd4b39;
 }
 
-section.contact ul.list-social li.social-google-plus a:hover {
+section.contact ul.list-social li.social-google-plus-g a:hover {
   background-color: #d73925;
 }
 
@@ -484,11 +484,11 @@ section.contact ul.list-social li.social-github a:hover {
   background-color: #24292e;
 }
 
-section.contact ul.list-social li.social-linkedin a {
+section.contact ul.list-social li.social-linkedin-in a {
   background-color: #0c76b3;
 }
 
-section.contact ul.list-social li.social-linkedin a:hover {
+section.contact ul.list-social li.social-linkedin-in a:hover {
   background-color: #0c76b3;
 }
 
@@ -498,10 +498,6 @@ section.contact ul.list-social li.social-xing a {
 
 section.contact ul.list-social li.social-xing a:hover {
   background-color: #097474;
-}
-
-.move-icons a {
-  margin-top: 20px;
 }
 
 footer {
@@ -618,22 +614,8 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   }
 }
 
-.main .main-wrapper .section-title .fa {
-  width: 30px;
-  height: 30px;
-  margin-right: 8px;
-  display: inline-block;
-  color: #006677;
-  text-align: center;
-  font-size: 110%;
-  position: relative;
-  top: -2px;
-}
-
-@media print {
-  .main .main-wrapper .section-title .fa {
-    top: 0;
-  }
+.main .main-wrapper .section-title .fas {
+  margin-right: 10px;
 }
 
 .main .main-wrapper .print-space {
@@ -695,7 +677,8 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   font-size: 110%;
 }
 
-.main .main-wrapper .content .fa {
+.main .main-wrapper .content .fas,
+.main .main-wrapper .content .fab {
   width: 0;
   height: 0;
   margin-right: 8px;
@@ -797,7 +780,8 @@ div .sidebar .sidebar-wrapper .contact-list {
   margin-bottom: 0;
 }
 
-div .sidebar .sidebar-wrapper .contact-list .fa {
+div .sidebar .sidebar-wrapper .contact-list .fas,
+div .sidebar .sidebar-wrapper .contact-list .fab {
   margin-right: 5px;
   font-size: medium;
   vertical-align: middle;
@@ -818,7 +802,8 @@ div .sidebar .sidebar-wrapper .contact-list li:last-child {
   margin-bottom: 0;
 }
 
-div .sidebar .sidebar-wrapper .contact-list .email .fa {
+div .sidebar .sidebar-wrapper .contact-list .email .fas,
+div .sidebar .sidebar-wrapper .contact-list .email .fab {
   font-size: medium;
 }
 
@@ -892,6 +877,10 @@ div .sidebar .sidebar-wrapper .interests-list li:last-child {
   div .sidebar {
     -webkit-print-color-adjust: exact;
   }
+}
+
+.cv-contact section.contact ul.list-social .fas {
+  margin-top: 25px;
 }
 
 .bg-primary {

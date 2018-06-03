@@ -28,10 +28,10 @@
         </div>
     </div>
     <div class="container">
-        <ul class="list-inline list-social">
+        <ul class="list-social">
             {% for network in site.social %}
             <li class="list-inline-item  social-{{ network.title }}">
-                <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-fw fa-{{ network.title }}"></i></a>
+                <a href="{{ network.url }}" class="btn-outline"><i class="fab fa-{{ network.title }}"></i></a>
             </li>
         {% endfor %}
         </ul>

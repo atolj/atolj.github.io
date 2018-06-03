@@ -63,19 +63,8 @@
         margin-bottom: 0;
         font-weight: 400;
       }
-      .fa {
-        width: 30px;
-        height: 30px;
-        margin-right: 8px;
-        display: inline-block;
-        color: $head-primary;
-        text-align: center;
-        font-size: $cv-font-size-content;
-        position: relative;
-        top: -2px;
-        @media print {
-          top: 0;
-        }
+      .fas {
+        margin-right: 10px;
       }
     }
     .print-space{
@@ -128,11 +117,11 @@
     }
     .content {
       font-size: $cv-font-size-content;
-      .fa {
+      .fas,
+      .fab {
         width: 0;
         height: 0;
         margin-right: 8px;
-
         text-align: center;
         font-size: 4px;
         position: relative;
@@ -213,7 +202,8 @@ div {
       }
 
       .contact-list {
-        .fa {
+        .fas,
+        .fab {
           margin-right: 5px;
           font-size: medium;
           vertical-align: middle;
@@ -228,8 +218,11 @@ div {
         li:last-child {
           margin-bottom: 0;
         }
-        .email .fa {
-          font-size: medium;
+        .email {
+          .fas,
+          .fab {
+            font-size: medium;
+          }
         }
         margin-bottom: 0;
       }
@@ -289,4 +282,14 @@ div {
     }
   }
 }
+.cv-contact {
+  section.contact {
 
+    ul.list-social {
+      .fas {
+        margin-top: 25px;
+      }
+
+    }
+  }
+}

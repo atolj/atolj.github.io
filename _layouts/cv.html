@@ -14,7 +14,7 @@
 
             {% include cv/school.html %}
             <section xmlns="http://www.w3.org/1999/html">
-                <h2 class="section-title"><i class="fa fa-briefcase"></i>Beruflicher Werdegang</h2>
+                <h2 class="section-title"><i class="fas fa-briefcase"></i>Beruflicher Werdegang</h2>
                 {% for project in site.projects reversed  %}
                 {% assign loopindex = forloop.index | modulo: 2 %}
                 {% if loopindex == 1 %}
@@ -38,7 +38,7 @@
                             <div class="sub-section-title">Aufgaben</div>
                             {% for task in project.tasks %}
 
-                            <div class="content"><i class="fa fa-circle"></i>{{ task }}</div>
+                            <div class="content"><i class="fas fa-circle"></i>{{ task }}</div>
                             {% endfor %}
 
                             <div class="sub-section-title">Technologien</div>
@@ -58,7 +58,7 @@
         </div><!--//main-body-->
     </div>
 </div>
-<div class="d-print-none">
+<div class="d-print-none cv-contact">
     {% include contact.html %}
     {% include scripts.html %}
 </div>
