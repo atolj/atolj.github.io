@@ -297,7 +297,7 @@ section.download .badges .badge-link img {
 }
 
 section.consulting i {
-  font-size: 80px;
+  font-size: 70px;
   margin-top: 20px;
   margin-bottom: 30px;
   background: -webkit-linear-gradient(to left, #006677, #001922);
@@ -450,6 +450,7 @@ section.contact ul.list-social {
 }
 
 section.contact ul.list-social li a {
+  margin-top: 20px;
   display: block;
   height: 80px;
   width: 80px;
@@ -499,6 +500,10 @@ section.contact ul.list-social li.social-xing a:hover {
   background-color: #097474;
 }
 
+.move-icons a {
+  margin-top: 20px;
+}
+
 footer {
   padding: 25px 0;
   text-align: center;
@@ -528,13 +533,25 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   background: url("../img/bg-pattern.png"), #006677;
 }
 
+@media print {
+  .svg-background {
+    background: none;
+  }
+}
+
 .main {
   max-width: 960px;
   position: relative;
-  -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   margin: 60px auto 0;
+}
+
+@media print {
+  .main {
+    margin-top: 0;
+  }
 }
 
 .main section {
@@ -719,19 +736,19 @@ div .sidebar .sidebar-wrapper .print-space {
 
 @media print {
   div .sidebar .sidebar-wrapper .cert-space {
-    padding-bottom: 25px;
+    padding-bottom: 40px;
   }
 }
 
 @media print {
   div .sidebar .sidebar-wrapper .db-space {
-    padding-bottom: 165px;
+    padding-bottom: 190px;
   }
 }
 
 @media print {
   div .sidebar .sidebar-wrapper .vcs-space {
-    padding-bottom: 195px;
+    padding-bottom: 250px;
   }
 }
 
@@ -811,7 +828,7 @@ div .sidebar .sidebar-wrapper .container-block {
 
 @media print {
   div .sidebar .sidebar-wrapper .container-block {
-    padding-bottom: 10px;
+    padding-bottom: 35px;
   }
 }
 

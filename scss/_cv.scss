@@ -1,16 +1,21 @@
 
 .svg-background {
   background: url("../img/bg-pattern.png"), $head-primary;
+  @media print {
+    background: none;
+  }
 }
 
 .main {
   max-width: 960px;
   position: relative;
-  -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   margin: 60px auto 0;
-
+  @media print {
+    margin-top: 0;
+  }
   section {
     padding: 0;
     margin-top: 0;
@@ -163,17 +168,17 @@ div {
       }
       .cert-space{
         @media print {
-          padding-bottom: 25px;
+          padding-bottom: 40px;
         }
       }
       .db-space{
         @media print {
-          padding-bottom: 165px;
+          padding-bottom: 190px;
         }
       }
       .vcs-space{
         @media print {
-          padding-bottom: 195px;
+          padding-bottom: 250px;
         }
       }
       a {
@@ -231,7 +236,7 @@ div {
       .container-block {
         padding: 35px 20px 20px;
         @media print {
-          padding-bottom: 10px;
+          padding-bottom: 35px;
         }
       }
 
@@ -285,8 +290,3 @@ div {
   }
 }
 
-.hidden-print{
-  @media print {
-
-  }
-}
