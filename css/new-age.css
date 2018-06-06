@@ -306,6 +306,16 @@ section.consulting i {
   -webkit-text-fill-color: transparent;
 }
 
+section.achievement i {
+  font-size: 70px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  background: -webkit-linear-gradient(to left, #006677, #001922);
+  background: linear-gradient(to left, #006677, #001922);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 section.features .section-heading {
   margin-bottom: 50px;
 }
@@ -368,43 +378,35 @@ section.features .feature-item i {
   -webkit-text-fill-color: transparent;
 }
 
-section.cta {
+section.blog {
   position: relative;
-  padding: 250px 0;
-  background-image: url("../img/bg-cta.jpg");
-  background-position: center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background-color: #5a6268;
 }
 
-section.cta .cta-content {
+section.blog .blog-content {
   position: relative;
-  z-index: 1;
+  min-height: 300px;
 }
 
-section.cta .cta-content h2 {
+section.blog .blog-content h2 {
   font-size: 50px;
-  max-width: 450px;
   margin-top: 0;
   margin-bottom: 25px;
   color: white;
 }
 
-@media (min-width: 768px) {
-  section.cta .cta-content h2 {
-    font-size: 80px;
-  }
+section.blog .blog-content h5 {
+  color: white;
 }
 
-section.cta .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+section.blog .blog-content p {
+  color: white;
+}
+
+@media (min-width: 768px) {
+  section.blog .blog-content h2 {
+    font-size: 80px;
+  }
 }
 
 section.contact {
@@ -879,8 +881,8 @@ div .sidebar .sidebar-wrapper .interests-list li:last-child {
   }
 }
 
-.cv-contact section.contact ul.list-social .fas {
-  margin-top: 25px;
+.cv-contact section.contact ul.list-social .cv-contact-social {
+  padding-top: 20px;
 }
 
 .bg-primary {
@@ -930,72 +932,6 @@ section h2 {
   font-size: 50px;
 }
 
-section.cta {
-  position: relative;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-  background-position: center;
-  background-image: url("../img/bg-cta.jpg");
-  padding: 250px 0;
-}
-
-section.cta .cta-content {
-  position: relative;
-  z-index: 1;
-}
-
-section.cta .cta-content h2 {
-  margin-top: 0;
-  margin-bottom: 25px;
-  color: white;
-  max-width: 450px;
-  font-size: 50px;
-}
-
-section.cta .overlay {
-  height: 100%;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-section.cta-donate {
-  position: relative;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-  background-position: center;
-  background-image: url("../img/donate.jpg");
-  padding: 250px 0;
-}
-
-section.cta-donate .cta-content-donate {
-  position: relative;
-  z-index: 1;
-}
-
-section.cta-donate .cta-content-donate h2 {
-  margin-top: 0;
-  margin-bottom: 25px;
-  color: white;
-  max-width: 450px;
-  font-size: 50px;
-}
-
-section.cta-donate .overlay-donate {
-  height: 100%;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
 @media (min-width: 768px) {
   section.download h2 {
     font-size: 50px;
@@ -1011,12 +947,6 @@ section.cta-donate .overlay-donate {
 @media (min-width: 992px) {
   section.features .device-container, section.features .feature-item {
     max-width: none;
-  }
-}
-
-@media (min-width: 768px) {
-  section.cta .cta-content h2 {
-    font-size: 80px;
   }
 }
 

@@ -282,14 +282,13 @@ div {
     }
   }
 }
+// Something broke here and i have no clue.
 .cv-contact {
   section.contact {
-
     ul.list-social {
-      .fas {
-        margin-top: 25px;
+      .cv-contact-social {
+        padding-top: 20px;
       }
-
     }
   }
 }
