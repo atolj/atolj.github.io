@@ -1,5 +1,4 @@
 ---
-layout:     project
 job:
   - title:      IT Solutions Designer
     date:       11/2010-01/2013

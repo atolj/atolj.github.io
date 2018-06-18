@@ -1,5 +1,4 @@
 ---
-layout:     project
 job:
   - title:      Solutions Architect
     date:       02/2013-07/2014

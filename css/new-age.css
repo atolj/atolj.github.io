@@ -378,37 +378,6 @@ section.features .feature-item i {
   -webkit-text-fill-color: transparent;
 }
 
-section.blog {
-  position: relative;
-  background-color: #5a6268;
-}
-
-section.blog .blog-content {
-  position: relative;
-  min-height: 300px;
-}
-
-section.blog .blog-content h2 {
-  font-size: 50px;
-  margin-top: 0;
-  margin-bottom: 25px;
-  color: white;
-}
-
-section.blog .blog-content h5 {
-  color: white;
-}
-
-section.blog .blog-content p {
-  color: white;
-}
-
-@media (min-width: 768px) {
-  section.blog .blog-content h2 {
-    font-size: 80px;
-  }
-}
-
 section.contact {
   text-align: center;
 }

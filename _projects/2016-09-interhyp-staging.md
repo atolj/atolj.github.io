@@ -1,5 +1,4 @@
 ---
-layout:     project
 job:
   - title:      Site Reliability Engineer
     date:       09/2016-08/2017
