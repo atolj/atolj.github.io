@@ -13,7 +13,7 @@
     "bootstrap": "^4.3.1",
     "jquery": "^3.4.1",
     "jquery.easing": "^1.4.1",
-    "npm": "^6.10.0",
+    "npm": "^6.13.4",
     "simple-line-icons": "2.4.1"
   },
   "devDependencies": {
