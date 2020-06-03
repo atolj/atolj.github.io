@@ -710,7 +710,7 @@ div .sidebar .sidebar-wrapper .print-space {
 
 @media print {
   div .sidebar .sidebar-wrapper .vcs-space {
-    padding-bottom: 250px;
+    padding-bottom: 25px;
   }
 }
 
