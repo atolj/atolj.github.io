@@ -2,7 +2,7 @@
 job:
   - title:      Cloud Architect
     date:       Seit 12/2018
-    company:    Energiewirtschaft Branche
+    company:    Energiewirtschaftsbranche
     task:       AWS Cloud Architecture Consulting   
 challenge:      Design und Erstellung einer Cloud-Management-Plattform für AWS. 
 process:        Scrum
