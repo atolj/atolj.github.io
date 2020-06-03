@@ -4,13 +4,13 @@ job:
     date:       Seit 12/2018
     company:    Energiewirtschaft Branche
     task:       AWS Cloud Architecture Consulting   
-challenge:      Desing und Erstellung einer Cloud-Management-Platform für AWS. 
+challenge:      Design und Erstellung einer Cloud-Management-Plattform für AWS. 
 process:        Scrum
 tasks:
   - Design und Aufbau einer Serverless Plattform zur Verwaltung von AWS und Azure Accounts    
-  - Entwurf und Umsetzung des Netzwerklayouts und der Netzwerksecurity mit Anbindung an das Kundendatacenter
-  - Automatisierte Bereitstellung und Qualitätsprüfung von Infrastructure Services 
-  - Implemtierung einer cloudbasierten Enterprise-Security Umgebung 
+  - Entwurf und Umsetzung des Netzwerklayouts und der Netzwerksicherheit mit Anbindung an das on-premises Rechenzentrum
+  - Automatisierte Bereitstellung und Qualitätsprüfung von Infrastruktur Services 
+  - Implementierung einer cloudbasierten Enterprise-Security Umgebung 
   - Einführung von Infrastructure as Code und Einbettung in CICD Pipelines
   - Design und Implementierung von Lösungen zur Einhaltung von unternehmensweiten Compliance- und Datenschutz-Standards
 skills:
