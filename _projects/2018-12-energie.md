@@ -11,7 +11,6 @@ tasks:
   - Entwurf und Umsetzung des Netzwerklayouts und der Netzwerksicherheit mit Anbindung an das on-premises Rechenzentrum
   - Automatisierte Bereitstellung und Qualitätsprüfung von Infrastruktur Services 
   - Implementierung einer cloudbasierten Enterprise-Security Umgebung 
-  - Einführung von Infrastructure as Code und Einbettung in CICD Pipelines
   - Design und Implementierung von Lösungen zur Einhaltung von unternehmensweiten Compliance- und Datenschutz-Standards
 skills:
   - head: "Servertechnologien & Virtualisierung:"
