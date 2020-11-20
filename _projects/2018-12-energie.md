@@ -18,7 +18,7 @@ skills:
   - head: "Netzwerk & Security:"
     bullets: "AWS VPC Networks, Transit Gateway, AWS SCPs, Security Hub, GuardDuty, CloudTrail, VPC FlowLogs, NACLs, Security Groups"  
   - head: "Messaging, Monitoring & Datenbanken:"
-    bullets: "SQS, SNS, Amazon CloudWatch, Grafana, DynamoDB, RDS PostgreSql, MySQL Serverless, EBS"
+    bullets: "Grafana AWS CloudWatch, SQS, SNS, DynamoDB, RDS PostgreSql, EBS"
   - head: "Entwicklungsinfrastruktur:"
     bullets: "Python, NodeJS, CloudFormation, PyCharm, Webstorm, Azure DevOps, Nexus Repository Manager, Nexus IQ, SonarQube"
 ---
