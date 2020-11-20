@@ -16,7 +16,7 @@ skills:
   - head: "Servertechnologien & Virtualisierung:"
     bullets: "Amazon Web Services, IAM, EC2, EKS, Lambda, StepFunctions, Docker"
   - head: "Netzwerk & Security:"
-    bullets: "AWS VPC Networks, Transit Gateway, AWS SCPs, Security Hub, GuardDuty, CloudTrail, VPC FlowLogs, NACLs, Security Groups"  
+    bullets: "AWS VPC, Transit Gateway, SCPs, Security Hub, GuardDuty, CloudTrail"  
   - head: "Messaging, Monitoring & Datenbanken:"
     bullets: "Grafana AWS CloudWatch, SQS, SNS, DynamoDB, RDS PostgreSql, EBS"
   - head: "Entwicklungsinfrastruktur:"
