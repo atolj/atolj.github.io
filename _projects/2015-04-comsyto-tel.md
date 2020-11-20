@@ -10,7 +10,7 @@ tasks:
   - Erstellung von Konzepten und Prototypen
   - Umgestaltung des Qualitätsprozesses für Continuous Delivery
   - Performance-Analysen und -Optimierungen bei Stabilitätsproblemen
-  - Anforderungsanalyse, Planung, Schätzung und Umsetzung fachlicher Anforderungen
+  - Anforderungsanalyse, Planung und Umsetzung fachlicher Anforderungen
   - Einarbeitung und Coaching neuer Kollegen
 skills:
   - head: "Entwicklung Frontend:"
