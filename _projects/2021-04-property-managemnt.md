@@ -9,7 +9,7 @@ process:        Scrum
 tasks:
 - Unterstützung Cloud Architektur
 - Vorbereitung GCP Landing Zone
-- Mitarbeit im PoC „Downloadbereich für Mitglieder“: 
+- Mitarbeit im PoC Downloadbereich für Mitglieder 
 - Definition Zielarchitektur & Festlegung Basistechnologien in der Cloud
 - User Portal Service, IAM, Billing, Admin Console, Security, Shared Services, Account Baseline, Organization Policies, Networking, Operations Management, Compliance & Governance
 skills:

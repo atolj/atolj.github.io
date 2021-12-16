@@ -8,10 +8,8 @@ challenge:      Design und Erstellung von konsumierbaren Sicherheits- und Govern
 process:        Kanban
 tasks:
 - Identifikation von zentralen Maßnahmen für die Operationalisierung von Cloudprojekten
-- Erstellung eines Cloud Governance Model für die Cloud Journey der Projektteams
 - Erstellung von Sicherheitskonzepten für zentral verwaltete Systemkomponenten.
-- Design und Implementierung von automatisierten Sicherheitskontrollen für Cloud Plattformen.
-- Identifikation von Zukunftsthemen (Technologien, Werkzeuge, Prozesse) und deren Umsetzung. 
+- Design und Implementierung von automatisierten Sicherheitskontrollen für Cloud Plattformen. 
 - Coaching von Projektteams zu neuen Konzepten und Best Practices der Public Cloud Platform.
 skills:
   - head: "Servertechnologien & Virtualisierung:"
@@ -19,7 +17,7 @@ skills:
   - head: "Netzwerk & Security:"
     bullets: "AWS VPC Networks, AWS SCPs, Security Hub, GuardDuty, IAM Access Analyzer, VPC FlowLogs, Security Groups"  
   - head: "Messaging, Monitoring & Datenbanken:"
-    bullets: "SQS, SNS, DataDog, DynamoDB, RDS PostgreSql, MySQL Serverless, EBS, N2WS"
+    bullets: "DataDog, DynamoDB, RDS PostgreSql, MySQL Serverless, EBS, N2WS"
   - head: "Entwicklungsinfrastruktur:"
     bullets: "Python, NodeJS, AWS SDK, PyCharm, Webstorm, Azure DevOps, Nexus Repository Manager, Nexus IQ, SonarQube"
 ---
