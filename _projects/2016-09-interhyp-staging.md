@@ -12,7 +12,6 @@ tasks:
   - Konfiguration des CI Servers und Design der Delivery Pipeline
   - Inbetriebnahme der Staging-Umgebung mit geeigneten Technologien
   - Einrichtung einer Managementlösung für die Staging Umgebung
-  - Entwurfs des Entwicklungsmodells zur Einhaltung der Qualitygates
   - Halten von Workshops und Coaching der Kundenmitarbeiter
 skills:
   - head: "Servertechnologien & Virtualisierung:"

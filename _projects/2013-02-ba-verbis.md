@@ -15,10 +15,8 @@ tasks:
   - Abstimmung und Erörterung offener Punkte zu neuen Anforderungen
   - Shakedownaktivitäten im Rahmen von Hotfixes, Minor (Produktionspatches) und Major Releases 
 skills:
-  - head: "Entwicklung Frontend:"
-    bullets: "JSP"
-  - head: "Entwicklung Backend:"
-    bullets: "Java, Spring, Hibernate, OracleDB"
+  - head: "Entwicklung:"
+    bullets: "JSP, Java, Spring, Hibernate, OracleDB"
   - head: "Qualitätssicherung:"
     bullets: "JUnit, PMD, Checkstyle"
   - head: "Entwicklungsinfrastruktur:"
