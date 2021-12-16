@@ -7,7 +7,7 @@ job:
 challenge:      Design und Erstellung einer Cloud-Management-Plattform für AWS. 
 process:        Scrum
 tasks:
-  - Aufbau einer Serverless Plattform zur Verwaltung von AWS Accounts    
+  - Aufbau einer Serverless Plattform zur Verwaltung von AWS Accounts
   - Entwurf und Umsetzung des Netzwerklayouts und der Netzwerksicherheit mit Anbindung an das on-premises Rechenzentrum
   - Automatisierte Bereitstellung und Qualitätsprüfung von Infrastruktur Services 
   - Implementierung einer cloudbasierten Enterprise-Security Umgebung 
