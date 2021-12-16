@@ -7,10 +7,10 @@ job:
 challenge:      Design und Erstellung von konsumierbaren Sicherheits- und Governance Bausteinen in AWS. 
 process:        Kanban
 tasks:
-- Identifikation von zentralen Maßnahmen für die Operationalisierung von Cloudprojekten
-- Erstellung von Sicherheitskonzepten für zentral verwaltete Systemkomponenten.
-- Design und Implementierung von automatisierten Sicherheitskontrollen für Cloud Plattformen. 
-- Coaching von Projektteams zu neuen Konzepten und Best Practices der Public Cloud Platform.
+- Identifikation von zentralen Maßnahmen für Cloud Projekte
+- Erstellung von Sicherheitskonzepten für zentrale Systemkomponenten
+- Design und Implementierung von automatisierten Sicherheitskontrollen 
+- Coaching von Projektteams zu neuen Konzepten und Best Practices der Public Cloud Platform
 skills:
   - head: "Servertechnologien & Virtualisierung:"
     bullets: "Amazon Web Services, IAM, EC2, Lambda, Fargate ECS, Docker"
