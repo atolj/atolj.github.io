@@ -3,7 +3,7 @@ job:
   - title:      Cloud Architect
     date:       04/2021 - 11/2021
     company:    Intellectual Property Management
-    task:       AWS Cloud Architecture Consulting   
+    task:       GCP Cloud Architecture Consulting   
 challenge:      Design und Erstellung einer Cloud-Management-Plattform für GCP. 
 process:        Scrum
 tasks:
