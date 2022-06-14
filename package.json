@@ -7,7 +7,7 @@
     "type": "git",
     "url": "git+https://github.com/atolj/atolj.github.io"
   },
-  "bundleDependencies": false,
+  "bundleDependencies": [],
   "dependencies": {
     "animate.css": "^3.7.2",
     "bootstrap": "^4.5.3",
@@ -17,7 +17,7 @@
     "simple-line-icons": "2.4.1"
   },
   "devDependencies": {
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-clean-css": "^4.3.0",
     "gulp-header": "^1.1.0",
     "gulp-rename": "^2.0.0",
